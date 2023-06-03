@@ -19,6 +19,7 @@
             <tr th:each="issue:${issueList}">
                 <td th:text="${issue.id}">(id)</td>
                 <td th:text="${issue.summary}">(summary)</td>
+                <td th:text="${issue.description}">(description)</td>
             </tr>
         </tbody>
     </table>
